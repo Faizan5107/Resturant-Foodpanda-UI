@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:resturant/Screens/Home/Home_screen.dart';
+import 'package:resturant/Screens/cart.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});
@@ -488,7 +490,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
                                                                           // SizedBox(width: 30,),
                                                                           ElevatedButton(
                                                                             onPressed: () {
-                                                                              // Add your functionality here
+                                                                              Get.to(CartScreen());
                                                                             },
                                                                             style: ElevatedButton.styleFrom(
                                                                               backgroundColor: Colors.pink, // Background color
@@ -823,7 +825,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
                                                                           // SizedBox(width: 30,),
                                                                           ElevatedButton(
                                                                             onPressed: () {
-                                                                              // Add your functionality here
+                                                                              Get.to(CartScreen());
                                                                             },
                                                                             style: ElevatedButton.styleFrom(
                                                                               backgroundColor: Colors.pink, // Background color
@@ -1157,7 +1159,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
                                                                           // SizedBox(width: 30,),
                                                                           ElevatedButton(
                                                                             onPressed: () {
-                                                                              // Add your functionality here
+                                                                              Get.to(CartScreen());
                                                                             },
                                                                             style: ElevatedButton.styleFrom(
                                                                               backgroundColor: Colors.pink, // Background color
@@ -1491,7 +1493,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
                                                                           // SizedBox(width: 30,),
                                                                           ElevatedButton(
                                                                             onPressed: () {
-                                                                              // Add your functionality here
+                                                                              Get.to(CartScreen());
                                                                             },
                                                                             style: ElevatedButton.styleFrom(
                                                                               backgroundColor: Colors.pink, // Background color
@@ -1825,7 +1827,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
                                                                           // SizedBox(width: 30,),
                                                                           ElevatedButton(
                                                                             onPressed: () {
-                                                                              // Add your functionality here
+                                                                              Get.to(CartScreen());
                                                                             },
                                                                             style: ElevatedButton.styleFrom(
                                                                               backgroundColor: Colors.pink, // Background color
@@ -2159,7 +2161,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
                                                                           // SizedBox(width: 30,),
                                                                           ElevatedButton(
                                                                             onPressed: () {
-                                                                              // Add your functionality here
+                                                                              Get.to(CartScreen());
                                                                             },
                                                                             style: ElevatedButton.styleFrom(
                                                                               backgroundColor: Colors.pink, // Background color
